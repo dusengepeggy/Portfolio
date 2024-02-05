@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>About Us</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="w-full">
+    <div id="preloader" class="fixed inset-0 bg-gray-100 flex justify-center items-center">
+        <div class="loader_line h-1 w-24 bg-black animate-pulse"></div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var preloader = document.getElementById('preloader');
+            if (preloader) {
+                preloader.classList.add('hidden');
+            }
+        });
+    </script>
+    <nav class="fixed min-w-min flex flex-row w-full bg-white p-3  top-0 ">
+        <a href="#" class="w-2/5 flex  text-xl font-black">PEGGY</a>
+        <ul class="w-3/5 flex flex-row justify-evenly ">
+            <li><a href="#">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="">Project</a></li>
+            <li><a href="">Contact</a></li>
+
+        </ul>
+    </nav>
+    <main class="w-11/12 h-4/5 m-auto ">
+
+
+        <section id="home" class="h-screen mb-15 mt-15">
+            <div class="flex w-full h-full bg-black  ">
+                <div class="w-2/5  h-full">
+                    <img src="./img/Jn1Gt3.jpg" class="w-full  h-4/5 " alt="Me">
+                </div>
+                <div class="font-mono h-full w-3/5 flex flex-col items-center justify-center bg-slate-100">
+                    <p>Hey I am <span class="text-slate-300">Peggy</span>,</p>
+                    <p>A software engineer</p>
+                    <p>At your service</p>
+                    <div><button>Contact me </button></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="About" class="h-fit mb-4 w-full ">
+
+
+            <div class=" w-fit px-4 py-8 sm:px-6 sm:py-12  lg:px-8 lg:py-16">
+
+                <div class="w-full flex justify-between h-full">
+
+                    <div class="w-1/2 h-full p-3">
+                        <h2 class="text-3xl font-bold sm:text-4xl">ABOUT ME</h2>
+
+                        <p class="mt-4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolores iure fugit totam
+                            iste obcaecati. Consequatur ipsa quod ipsum sequi culpa delectus, cumque id tenetur
+                            quibusdam, quos fuga minima.
+                        </p>
+                    </div>
+                    <div class="w-1/2 bg-slate-100">
+
+                    </div>
+                </div>
+
+                <div class="w-full mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
+                    <div class="flex items-start gap-4 ">
+                        <span class="shrink-0 rounded-lg m-auto bg-slate-100 p-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                style="fill: rgba(0, 0, 0, 1);transform: msFilter">
+                                <path
+                                    d="M13.9 2.01 3.9 12l3.09 3.09 2.71-2.7L20.09 2l-6.19.01zm.82 14.6 5.39-5.38h-5.93c-.11 0-.26 0-.34.07l-2.23 2.23-3.09 3.07 3.09 3.1 2.15 2.15c.07.07.14.17.26.15h6.07z">
+                                </path>
+                            </svg>
+                        </span>
+
+                        <div>
+                            <h2 class="text-lg font-bold">Lorem, ipsum dolor.</h2>
+
+                            <p class="mt-1 text-sm text-gray-500">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error cumque tempore est ab
+                                possimus quisquam reiciendis tempora animi! Quaerat, saepe?
+                            </p>
+                        </div>
+                    </div>
+
+
+
+
+        </section>
+        <section class="about-area section-padding light-bg" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="section-title text-center mb-60">
+                            <h2 class="mb-20">About Me</h2>
+                            <div class="horizontal-line">
+                                <div class="top"></div>
+                                <div class="bottom"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="left mr-40">
+                            <h3 class="font-22 capitalize">Howdy!</h3>
+                            <p class="font-16 line-height-28">
+                                On the other hand, we denounce with righteous indignation and dislike men who are so
+                                beguiled and demoralized by th charms of pleasure of the moment, so blinded by desire,
+                                tht they cannot foresee the pain and trouble that are
+                            </p>
+                            <div class="about-button mt-30">
+                                <a class="btn" href="#">Download my cv</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-push-1 col-md-5">
+                        <div class="right skill-progress">
+                            <!-- skill bar 1 -->
+                            <div class="skill-bar" data-percentage="90%">
+                                <h4 class="progress-title-holder">
+                                    <span class="progress-title">Design</span>
+                                    <span class="progress-wrapper">
+                                        <span class="progress-mark">
+                                            <span class="percent"></span>
+                                        </span>
+                                    </span>
+                                </h4>
+                                <div class="progress-outter">
+                                    <div class="progress-content"></div>
+                                </div>
+                            </div>
+                            <!-- skill bar 2 -->
+                            <div class="skill-bar" data-percentage="85%">
+                                <h4 class="progress-title-holder">
+                                    <span class="progress-title">html & css</span>
+                                    <span class="progress-wrapper">
+                                        <span class="progress-mark">
+                                            <span class="percent"></span>
+                                        </span>
+                                    </span>
+                                </h4>
+                                <div class="progress-outter">
+                                    <div class="progress-content"></div>
+                                </div>
+                            </div>
+                            <!-- skill bar 2 -->
+                            <div class="skill-bar" data-percentage="90%">
+                                <h4 class="progress-title-holder">
+                                    <span class="progress-title">Wordpress</span>
+                                    <span class="progress-wrapper">
+                                        <span class="progress-mark">
+                                            <span class="percent"></span>
+                                        </span>
+                                    </span>
+                                </h4>
+                                <div class="progress-outter">
+                                    <div class="progress-content"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <section class="experience-area section-padding bg-color-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="section-title text-center mb-60">
+                            <h2 class="mb-20">My Experience</h2>
+                            <div class="horizontal-line">
+                                <div class="top"></div>
+                                <div class="bottom"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 mobile-mb-30">
+                        <div class="left">
+                            <div class="single-experi mb-50">
+                                <div class="left-text floatleft relative">
+                                    <div class="dashed-line"></div>
+                                    <h4 class="montserrat weight-medium mb-5 capitalize">Behance</h4>
+                                    <p class="montserrat weight-medium">2007-2008</p>
+                                </div>
+                                <div class="right-text">
+                                    <i class="zmdi zmdi-check-circle"></i>
+                                    <h3 class="capitalize font-20">Web Designer & Developer</h3>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="single-experi">
+                                <div class="left-text floatleft">
+                                    <h4 class="montserrat weight-medium mb-5 capitalize">Regaltheme</h4>
+                                    <p class="montserrat weight-medium">2007-2008</p>
+                                </div>
+                                <div class="right-text">
+                                    <i class="zmdi zmdi-check-circle"></i>
+                                    <h3 class="capitalize font-20">Graphic Designer</h3>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="right">
+                            <div class="single-experi mb-50">
+                                <div class="left-text floatleft relative">
+                                    <div class="dashed-line"></div>
+                                    <h4 class="montserrat weight-medium mb-5 capitalize">Wipux</h4>
+                                    <p class="montserrat weight-medium">2007-2008</p>
+                                </div>
+                                <div class="right-text">
+                                    <i class="zmdi zmdi-check-circle"></i>
+                                    <h3 class="capitalize font-20">Web & Print Designer</h3>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="single-experi">
+                                <div class="left-text floatleft">
+                                    <h4 class="montserrat weight-medium mb-5 capitalize">Themeforest</h4>
+                                    <p class="montserrat weight-medium">2007-2008</p>
+                                </div>
+                                <div class="right-text">
+                                    <i class="zmdi zmdi-check-circle"></i>
+                                    <h3 class="capitalize font-20">Programmer & Developer</h3>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Experience Section End -->
+
+        <!-- Service Section Start -->
+        <section class="service-area bg-color-1 section-padding " id="service">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="section-title text-center mb-60 ">
+                            <h2 class="mb-20">My Services</h2>
+                            <div class="horizontal-line">
+                                <div class="top"></div>
+                                <div class="bottom"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center ">
+                    <div class="mobile-mb-30 col-xs-12 col-sm-6 col-md-3 overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+                        <div class="single-service pt-50 pb-60 plr-20">
+                            <i class="zmdi zmdi-devices"></i>
+                            <h5 class="montserrat weight-medium no-margin">UI/UX DESIGN</h5>
+                            <hr class="mtb-15" />
+                            <p>There are many variatio <br /> ns of pssages of Lorm available, bu in some form, </p>
+                        </div>
+                    </div>
+                    <div class="mobile-mb-30 col-xs-12 col-sm-6 col-md-3 overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+                        <div class="single-service pt-50 pb-60 plr-20">
+                            <i class="zmdi zmdi-favorite-outline"></i>
+                            <h5 class="montserrat weight-medium no-margin">web design</h5>
+                            <hr class="mtb-15" />
+                            <p>There are many variatio <br /> ns of pssages of Lorm available, bu in some form, </p>
+                        </div>
+                    </div>
+                    <div class="mobile-mb-30 col-xs-12 col-sm-6 col-md-3 ">
+                        <div class="single-service pt-50 pb-60 plr-20">
+                            <i class="zmdi zmdi-filter-center-focus"></i>
+                            <h5 class="montserrat weight-medium no-margin">Minimal DESIGN</h5>
+                            <hr class="mtb-15" />
+                            <p>There are many variatio ns of pssages of Lorm available, bu in some form, </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="single-service pt-50 pb-60 plr-20">
+                            <i class="zmdi zmdi-language-html5"></i>
+                            <h5 class="montserrat weight-medium no-margin">development</h5>
+                            <hr class="mtb-15" />
+                            <p>There are many variatio ns of pssages of Lorm available, bu in some form, </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class=" m-3 w-full">
+            <div class="flex mt-3">
+                <div class="copyright w-full ">
+                    <p class="text-[#333] font-poppins">Copyright &copy; 2023</p>
+                </div>
+                <div>
+                    <ul class="flex">
+                        <li class="mr-[8px] "><a class="text-[#333]" href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24"
+                                    style="fill: rgba(0, 0, 0, 1);transform: msFilter">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z">
+                                    </path>
+                                </svg></a></li>
+                        <li class="mr-[8px] "><a class="text-[#333]" href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24"
+                                    style="fill: rgba(0, 0, 0, 1);transform: msFilter">
+                                    <circle cx="4.983" cy="5.009" r="2.188"></circle>
+                                    <path
+                                        d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z">
+                                    </path>
+                                </svg></a></li>
+                        <li class="mr-[8px] "><a class="text-[#333]" href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24"
+                                    style="fill: rgba(0, 0, 0, 1);transform: msFilter">
+                                    <path
+                                        d="m18.73 5.41-1.28 1L12 10.46 6.55 6.37l-1.28-1A2 2 0 0 0 2 7.05v11.59A1.36 1.36 0 0 0 3.36 20h3.19v-7.72L12 16.37l5.45-4.09V20h3.19A1.36 1.36 0 0 0 22 18.64V7.05a2 2 0 0 0-3.27-1.64z">
+                                    </path>
+                                </svg></a></li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+
+
+</body>
+
+</html>
